@@ -1,0 +1,38 @@
+package BaiTap;
+
+import java.util.Scanner;
+
+public class TinhTongDuongCheoChinh {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhập Số hàng");
+        int hang = scanner.nextInt();
+        System.out.println("Nhập số cột");
+        int cot = scanner.nextInt();
+        int[][] arr = new int[hang][cot];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.println("Nhập vào phần tử thứ" + (j +1) + "Trong hàng" + (i+1));
+                arr[i][j] = scanner.nextInt();
+            }
+            System.out.println();
+        }
+        System.out.println("Mảng nhập vào");
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+        int tong = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (i == j) {
+                    tong += arr[i][j];
+                }
+            }
+        }
+        System.out.println("Tổng đường chéo chính của ma trận: ");
+        System.out.println(tong);
+    }
+}
