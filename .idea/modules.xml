@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java/Buoi_2_Module2/Buoi_2_Module2.iml" filepath="$PROJECT_DIR$/java/Buoi_2_Module2/Buoi_2_Module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/Modul2-Buoi2/Modul2-Buoi2.iml" filepath="$PROJECT_DIR$/java/Modul2-Buoi2/Modul2-Buoi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/Modul2_Buoi1/Modul2_Buoi1.iml" filepath="$PROJECT_DIR$/java/Modul2_Buoi1/Modul2_Buoi1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/Modul2_Buoi3/Modul2_Buoi3.iml" filepath="$PROJECT_DIR$/java/Modul2_Buoi3/Modul2_Buoi3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/Modul2_Buoi4/Modul2_Buoi4.iml" filepath="$PROJECT_DIR$/java/Modul2_Buoi4/Modul2_Buoi4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Modul_2.iml" filepath="$PROJECT_DIR$/.idea/Modul_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/demo/demo.iml" filepath="$PROJECT_DIR$/java/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/untitled/untitled.iml" filepath="$PROJECT_DIR$/java/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
